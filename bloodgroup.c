@@ -5,7 +5,7 @@ void main()
   int i;
   do
   {
-    printf("What is your Name? ");
+    printf("Kimi No Namai Wa? ");
     scanf("%s", Name);
     do
     {
@@ -34,7 +34,7 @@ void main()
     else if (strcmp(G, "AB") == 0)
     {
       printf("%s, AB. Oh My Goodness, you can give blood only to: AB.\n", Name);
-      printf("  Wow, you can receive blood from all: O, A, B, AB.\n");
+      printf("  Nani!!, you can receive blood from all: O, A, B, AB.\n");
     }
     else
     {
