@@ -33,7 +33,7 @@ void main()
     }
     else if (strcmp(G, "AB") == 0)
     {
-      printf("%s, AB. Oh my God, you can give blood only to: AB.\n", Name);
+      printf("%s, AB. Oh My Goodness, you can give blood only to: AB.\n", Name);
       printf("  Wow, you can receive blood from all: O, A, B, AB.\n");
     }
     else
@@ -44,5 +44,5 @@ void main()
     printf("\nContinue (YES for Yes)? ");
     scanf("%s", answer);
   } while (strcmp(answer, "YES") == 0);
-  printf("Goodbye\n");
+  printf("Sayonara Byebye\n");
 }
